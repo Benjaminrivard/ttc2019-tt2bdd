@@ -3,17 +3,12 @@
         "EMFSolutionATL",
         "EMFSolutionATLGraph",
         "ATLEMFTVMImproved",
-        "NMF",
         "Fulib",
         "RelationalRAGSolutionBDT",
         "RelationalRAGSolutionOBDD",
         "RelationalRAGSolutionOBDT",
         "RelationalRAGSolutionROBDD",
         "RelationalRAGSolutionROBDD-H",
-	"RSyncBDD",
-	"RSyncBDD-Unordered",
-	"RSyncBDT",
-	"RSyncBDT-Unordered",
         "EMFSolutionYAMTL"
     ],
     "Models": [
