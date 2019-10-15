@@ -26,7 +26,7 @@ RUN  (echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.l
 
 # Prepare YAMTL solution
 WORKDIR /ttc/solutions/EMFSolutionYAMTL
-RUN ./gradlew build && \
+RUN gradlew build && \
   tar tf build/distributions/EMFSolutionYAMTL-0.0.4-SNAPSHOT.tar && \
   sed -i 's#cmd=.*#cmd=JAVA_OPTS="-Xms4g -Xmx12g" EMFSolutionYAMTL-0.0.4-SNAPSHOT/bin/EMFSolutionYAMTL#g' solution.ini
 
