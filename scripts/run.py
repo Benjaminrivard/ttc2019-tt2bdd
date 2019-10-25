@@ -76,7 +76,8 @@ def benchmark(conf):
 
                 try:
                     output = subprocess.check_output(config.get('run', 'cmd'), shell=True, timeout=conf.Timeout)
-                    with open(result_file, "ab") as file:
+                    print(output)
+                    with open(result_file, 'a+b') as file:
                         file.write(output)
                 except CalledProcessError as e:
                     print("Program exited with error")
@@ -92,6 +93,9 @@ def benchmark(conf):
                     available_models[tool] = conf.Models[ : failed_model_idx]
                     print('# Ignoring models {models} for tool {tool} in the future'.format(models=conf.Models[failed_model_idx : ], tool=tool))
                     break
+                except:
+                    print("Unexpected error:", )
+                    raise
 
 
 def clean_dir(*path):
