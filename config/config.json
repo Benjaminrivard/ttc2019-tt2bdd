@@ -1,17 +1,16 @@
 {
   "Tools": [
-    "EMFSolutionATL"
+    "ATLEMFTVMImproved"
   ],
   "Models": [
     "GeneratedI4O2Seed42.ttmodel",
-    "GeneratedI8O2Seed68.ttmodel",
-    "GeneratedI8O4Seed68.ttmodel"
+    "GeneratedI8O2Seed68.ttmodel"
   ],
   "Runs": 10,
   "Timeout": 10000,
   "oldRuntimes": [
     "EMFSolutionATLGraph",
-    "ATLEMFTVMImproved",
+    "EMFSolutionATL",
     "Fulib",
     "RelationalRAGSolutionBDT",
     "RelationalRAGSolutionOBDD",
@@ -26,7 +25,7 @@
     "RSyncBDT-Unordered"
   ],
   "oldModels": [
-    
+    "GeneratedI8O4Seed68.ttmodel",
     "GeneratedI10O2Seed68.ttmodel",
     "GeneratedI12O2Seed7634.ttmodel",
     "GeneratedI14O4Seed7634.ttmodel",
