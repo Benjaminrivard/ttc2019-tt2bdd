@@ -53,22 +53,3 @@ sourceSets {
 	}
 }
 
-def compileATL(outputDir, module) {
-	ant.emftvm_compile(module: module, modulepath: 'src/ttc2019/', outputpath: "${outputDir}", charset: 'UTF-8')
-}
-
-
-task compileATL {
-	String outputDir = "${sourceSets.main.output.resourcesDir}/ttc2019/"
-	inputs.files('src/ttc2019/TT2BDD.atl')
-	outputs.files("${outputDir}/TT2BDD.emftvm")
-	doLast {
-		ant.taskdef(name: 'emftvm_compile',
-			classname: 'org.eclipse.m2m.atl.emftvm.ant.CompileTask',
-			classpath: configurations.emftvm_compile.asPath)
-		compileATL(outputDir, 'TT2BDD')
-	}
-}
-
-processResources.dependsOn(compileATL)
-
