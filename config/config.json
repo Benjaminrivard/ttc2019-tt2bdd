@@ -1,7 +1,7 @@
 {
   "Tools": [
-    "EMFSolutionATL",
-    "ATLEMFTVMImproved"
+    
+    "KotlinSolutionTT2BDD"
   ],
   "Models": [
     "GeneratedI4O2Seed42.ttmodel",
@@ -10,6 +10,8 @@
   "Runs": 10,
   "Timeout": 10000,
   "oldRuntimes": [
+    "EMFSolutionATL",
+    "ATLEMFTVMImproved",
     "EMFSolutionATLGraph",
     "EMFSolutionATL",
     "Fulib",
