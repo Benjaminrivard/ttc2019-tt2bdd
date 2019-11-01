@@ -73,8 +73,10 @@ public class Driver {
 		RunIndex = System.getenv("RunIndex");
 		Tool = System.getenv("Tool");
 
+		Model = "GeneratedI4O2Seed42.ttmodel";
+		ModelPath = "./models/GeneratedI4O2Seed42.ttmodel";
+
 		solution = new Solution();
-		solution.load("TT2BDD");
 
 		stopwatch = System.nanoTime() - stopwatch;
 		report(BenchmarkPhase.Initialization);
