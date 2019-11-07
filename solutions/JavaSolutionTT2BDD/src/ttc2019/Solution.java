@@ -1,20 +1,16 @@
 package ttc2019;
 
-import java.io.IOException;
-import java.util.Objects;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-
 import org.eclipse.emf.common.util.BasicEList;
 import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.resource.Resource;
-
-import ttc2019.metamodels.bdd.BDD;
-import ttc2019.metamodels.bdd.BDDFactory;
-import ttc2019.metamodels.bdd.BDDPackage;
-import ttc2019.metamodels.bdd.Port;
+import ttc2019.metamodels.bdd.*;
 import ttc2019.metamodels.bdd.impl.BDDFactoryImpl;
-import ttc2019.metamodels.tt.*;
+import ttc2019.metamodels.tt.InputPort;
+import ttc2019.metamodels.tt.TruthTable;
+
+import java.io.IOException;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class Solution {
 
@@ -42,16 +38,33 @@ public class Solution {
 		BDDFactory bddFactory = BDDFactoryImpl.init();
 		BDD bdd = bddFactory.createBDD();
 
-		EList<ttc2019.metamodels.bdd.Port> inputPorts = truthTable.getPorts().stream()
+		EList<Port> inputPorts = truthTable.getPorts().stream()
 												 .filter(Solution::isInputPort)
 												 .map(port -> ttPortToBddPort(port, bdd))
 												 .collect(Collectors.toCollection(BasicEList::new));
 
 
-		EList<ttc2019.metamodels.bdd.Port> ouputPortBdd = truthTable.getPorts().stream()
+		EList<Port> ouputPortBdd = truthTable.getPorts().stream()
 																				.filter(port -> !Solution.isInputPort(port))
 																				.map(port -> ttPortToBddPort(port, bdd))
 																				.collect(Collectors.toCollection(BasicEList::new));
+
+		EList<Leaf> leafList = truthTable.getRows().stream().map(row -> {
+			Leaf leaf = bddFactory.createLeaf();
+			leaf.setOwnerBDD(bdd);
+			row.getCells().forEach(cell ->  {
+				Assignment assignment = bddFactory.createAssignment();
+				assignment.setOwner(leaf);
+				Optional<Port> outputPort = ouputPortBdd.stream().filter(port -> port.getName().equals(cell.getPort().getName())).findFirst();
+				outputPort.ifPresent(port -> assignment.setPort((OutputPort) port));
+			});
+			return leaf;
+		}).collect(Collectors.toCollection(BasicEList::new));
+
+
+
+
+
 
 	}
 
@@ -70,11 +83,6 @@ public class Solution {
 
 		return bddPort;
 	}
-
-	private static void makeAssignment( ) {
-
-	}
-
 
 	private static boolean isInputPort(ttc2019.metamodels.tt.Port port) {
 		return port instanceof InputPort;
