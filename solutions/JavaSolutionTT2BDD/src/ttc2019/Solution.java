@@ -6,6 +6,7 @@ import org.eclipse.emf.ecore.resource.Resource;
 import ttc2019.metamodels.bdd.*;
 import ttc2019.metamodels.bdd.impl.BDDFactoryImpl;
 import ttc2019.metamodels.tt.InputPort;
+import ttc2019.metamodels.tt.Row;
 import ttc2019.metamodels.tt.TruthTable;
 
 import java.io.IOException;
@@ -45,9 +46,9 @@ public class Solution {
 
 
 		EList<Port> ouputPortBdd = truthTable.getPorts().stream()
-																				.filter(port -> !Solution.isInputPort(port))
-																				.map(port -> ttPortToBddPort(port, bdd))
-																				.collect(Collectors.toCollection(BasicEList::new));
+                                                        .filter(port -> !Solution.isInputPort(port))
+                                                        .map(port -> ttPortToBddPort(port, bdd))
+                                                        .collect(Collectors.toCollection(BasicEList::new));
 
 		EList<Leaf> leafList = truthTable.getRows().stream().map(row -> {
 			Leaf leaf = bddFactory.createLeaf();
@@ -60,6 +61,7 @@ public class Solution {
 			});
 			return leaf;
 		}).collect(Collectors.toCollection(BasicEList::new));
+
 
 
 
@@ -83,6 +85,15 @@ public class Solution {
 
 		return bddPort;
 	}
+
+	private static Optional<ttc2019.metamodels.tt.InputPort> getTTDefinedInAllRow(ttc2019.metamodels.tt.TruthTable tt) {
+	    return tt.getPorts().stream().filter(Solution::isInputPort).filter(port -> {
+	        EList<Row> portDefinedIn = tt.getRows().stream().filter( row -> row.getCells().stream().filter(cell -> cell.getPort() == port).count() >1).collect(Collectors.toCollection(BasicEList::new));
+	        return portDefinedIn.size() == tt.getRows().size();
+        }).map( port -> (InputPort) port).findFirst();
+	}
+
+
 
 	private static boolean isInputPort(ttc2019.metamodels.tt.Port port) {
 		return port instanceof InputPort;

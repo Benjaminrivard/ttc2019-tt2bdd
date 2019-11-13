@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Profiles\Benjamin\IdeaProjects\ttc2019-tt2bdd\solutions\RSync\src\main\scala\MainApp.scala:35:28: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.reflect.io.Path[0m
+[0m[[0m[31merror[0m] [0m[0m    val ttModelFile = File(modelPath)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Profiles\Benjamin\IdeaProjects\ttc2019-tt2bdd\solutions\RSync\src\main\scala\MainApp.scala:37:62: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Char[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    val processConfig = TTCProcessConfiguration(ttFileName = modelPath, bddFileName = bddModelFile.jfile.getCanonicalPath, processMode = processMode)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
