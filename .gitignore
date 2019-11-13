@@ -27,7 +27,6 @@ hs_err_pid*
 .history
 *.Rproj
 Rplots.pdf
-.idea
 .gradle
 !gradle/wrapper/gradle-wrapper.jar
 

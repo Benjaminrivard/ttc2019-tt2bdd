@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.eclipse.uml2:org.eclipse.uml2.common:1.5.0.v201005031530:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.uml2/org.eclipse.uml2.common/jars/org.eclipse.uml2.common-1.5.0.v201005031530.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.uml2/org.eclipse.uml2.common/srcs/org.eclipse.uml2.common-1.5.0.v201005031530-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

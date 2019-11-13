@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.5.0.v20100521-1846:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.emf/org.eclipse.emf.ecore.xmi/jars/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.emf/org.eclipse.emf.ecore.xmi/srcs/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

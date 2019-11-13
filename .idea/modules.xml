@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EMFSolutionATLGraph.iml" filepath="$PROJECT_DIR$/.idea/modules/EMFSolutionATLGraph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" filepath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach.iml" filepath="$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach-build.iml" filepath="$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.main.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.test.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ttc19fulibsolution.iml" filepath="$PROJECT_DIR$/.idea/modules/ttc19fulibsolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ttc19fulibsolution.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ttc19fulibsolution.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ttc19fulibsolution.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ttc19fulibsolution.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ttc2019-tt2bdd.iml" filepath="$PROJECT_DIR$/.idea/modules/ttc2019-tt2bdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/ttc2019-tt2bdd.solutions.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/ttc2019-tt2bdd.solutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/ttc2019-tt2bdd.solutions.EMFSolutionATL.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/ttc2019-tt2bdd.solutions.EMFSolutionATL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/ttc2019-tt2bdd.solutions.EMFSolutionATL.main.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/ttc2019-tt2bdd.solutions.EMFSolutionATL.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/ttc2019-tt2bdd.solutions.EMFSolutionATL.test.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/ttc2019-tt2bdd.solutions.EMFSolutionATL.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/ttc2019-tt2bdd.solutions.RelationalRAGSolution.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/ttc2019-tt2bdd.solutions.RelationalRAGSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/ttc2019-tt2bdd.solutions.RelationalRAGSolution.main.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/ttc2019-tt2bdd.solutions.RelationalRAGSolution.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/ttc2019-tt2bdd.solutions.RelationalRAGSolution.test.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/ttc2019-tt2bdd.solutions.RelationalRAGSolution.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metamodels/ttc2019.metamodels/ttc2019.metamodels.iml" filepath="$PROJECT_DIR$/metamodels/ttc2019.metamodels/ttc2019.metamodels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/ttc2019.model.generator/ttc2019.model.generator.iml" filepath="$PROJECT_DIR$/models/ttc2019.model.generator/ttc2019.model.generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/ttc2019.model.generator.tests/ttc2019.model.generator.tests.iml" filepath="$PROJECT_DIR$/models/ttc2019.model.generator.tests/ttc2019.model.generator.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/ttc2019.model.validator/ttc2019.model.validator.iml" filepath="$PROJECT_DIR$/models/ttc2019.model.validator/ttc2019.model.validator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yamtl.EMFSolutionYAMTL.iml" filepath="$PROJECT_DIR$/.idea/modules/yamtl.EMFSolutionYAMTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yamtl.EMFSolutionYAMTL.main.iml" filepath="$PROJECT_DIR$/.idea/modules/yamtl.EMFSolutionYAMTL.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yamtl.EMFSolutionYAMTL.test.iml" filepath="$PROJECT_DIR$/.idea/modules/yamtl.EMFSolutionYAMTL.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.fulib:fulib:1.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fulib/fulib/1.0.2-SNAPSHOT/41db75e9a8d3526e6896fbe51a8addafccf73ae4/fulib-1.0.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fulib/fulib/1.0.2-SNAPSHOT/e524e0f48870b74d858d9b6ee5729f7533b8243d/fulib-1.0.2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

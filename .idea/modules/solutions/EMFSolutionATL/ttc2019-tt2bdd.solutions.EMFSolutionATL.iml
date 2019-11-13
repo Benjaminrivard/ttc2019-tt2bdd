@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":solutions:EMFSolutionATL" external.linked.project.path="$MODULE_DIR$/../../../../solutions/EMFSolutionATL" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="ttc2019-tt2bdd.solutions" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="ttc2019-tt2bdd.solutions" externalSystemModuleVersion="unspecified" linkedProjectId=":solutions:EMFSolutionATL" linkedProjectPath="$MODULE_DIR$/../../../../solutions/EMFSolutionATL" rootProjectPath="$MODULE_DIR$/../../../.." />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

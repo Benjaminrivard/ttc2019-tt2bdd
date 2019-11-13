@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.16.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.16.0/d97e62119430239a787f779b399aa4b3fe11106e/org.eclipse.emf.ecore.xmi-2.16.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.16.0/c9f5f94713b197f738059530200f7e1f29f448f2/org.eclipse.emf.ecore.xmi-2.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

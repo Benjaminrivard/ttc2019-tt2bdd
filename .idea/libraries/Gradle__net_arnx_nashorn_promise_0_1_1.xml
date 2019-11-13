@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.arnx:nashorn-promise:0.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.arnx/nashorn-promise/0.1.1/3bae6bc4b167e0866dfb29aa9ff09ba55c6f0a52/nashorn-promise-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.arnx/nashorn-promise/0.1.1/96cc495e4bb583382894e4f69e7d46305fc02f90/nashorn-promise-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
