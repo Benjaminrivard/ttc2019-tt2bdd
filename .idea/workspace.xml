@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/output.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/metamodels/ttc2019.metamodels" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -146,6 +148,7 @@
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ttc2019.Driver" />
       <module name="JavaSolutionTT2BDD.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ttc2019.*" />
@@ -311,7 +314,7 @@
       <workItem from="1573032129345" duration="34000" />
       <workItem from="1573154413972" duration="3490000" />
       <workItem from="1573578173649" duration="199000" />
-      <workItem from="1573648433471" duration="4105000" />
+      <workItem from="1573648433471" duration="9576000" />
     </task>
     <task id="LOCAL-00001" summary="adapt ./gradlew command to windows --&gt; gradlew.bat">
       <created>1571119574283</created>

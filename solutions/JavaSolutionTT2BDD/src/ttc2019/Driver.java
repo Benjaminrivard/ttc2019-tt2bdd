@@ -72,9 +72,10 @@ public class Driver {
 		ModelPath = System.getenv("ModelPath");
 		RunIndex = System.getenv("RunIndex");
 		Tool = System.getenv("Tool");
-
-		Model = "GeneratedI4O2Seed42.ttmodel";
-		ModelPath = "./models/GeneratedI4O2Seed42.ttmodel";
+		Model = "GeneratedI8O2Seed68.ttmodel";
+		ModelPath = "./models/GeneratedI8O2Seed68.ttmodel";
+		Tool = "JavaSolutionTT2BDD";
+		RunIndex = "1";
 
 		solution = new Solution();
 
