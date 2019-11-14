@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="JavaSolutionTT2BDD:main" external.linked.project.path="$MODULE_DIR$/../../solutions/JavaSolutionTT2BDD" external.root.project.path="$MODULE_DIR$/../../solutions/JavaSolutionTT2BDD" external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" pureKotlinSourceFolders="D:\Profiles\Benjamin\IdeaProjects\ttc2019-tt2bdd\solutions\JavaSolutionTT2BDD\src\test\kotlin;D:\Profiles\Benjamin\IdeaProjects\ttc2019-tt2bdd\solutions\JavaSolutionTT2BDD\src\main\kotlin">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../solutions/JavaSolutionTT2BDD/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.xtend/org.eclipse.xtend.lib/2.17.0/9ebdb700c502b0232804b251a3f74fb40394657c/org.eclipse.xtend.lib-2.17.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.emftvm.compiler/4.0.0-1/695ceba7a96d928bb6757a5d1695a61327f2a32f/org.eclipse.m2m.atl.emftvm.compiler-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.50/bf65725d4ae2cf00010d84e945fcbc201f590e11/kotlin-stdlib-jdk8-1.3.50.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.xtend/org.eclipse.xtend.lib.macro/2.17.0/79c6cd8af6e094d7ae408ed6eecfdac8d20acda6/org.eclipse.xtend.lib.macro-2.17.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.xtext/org.eclipse.xtext.xbase.lib/2.17.0/6de761480c9148f3c5e0f4013dce98ca77e2965c/org.eclipse.xtext.xbase.lib-2.17.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.engine/4.0.0-1/1ce2657460360921e4cf065adb9f7e317505c34b/org.eclipse.m2m.atl.engine-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.dsls/4.0.0-1/67f99ae609897483c61555be3f80ca6ce9211ab0/org.eclipse.m2m.atl.dsls-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.emftvm/4.0.0-1/8ad195e4a3e19fd600f47c640458a282d0b3bfe3/org.eclipse.m2m.atl.emftvm-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.core.emf/4.0.0-1/62917a06468e56753fdd9a9ef5ee0ddae6179028/org.eclipse.m2m.atl.core.emf-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.common/4.0.0-1/1b560f7f19b8b647b78a3f3a69fc231bf7b8cf50/org.eclipse.m2m.atl.common-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.16.0/d97e62119430239a787f779b399aa4b3fe11106e/org.eclipse.emf.ecore.xmi-2.16.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.emftvm.trace/4.0.0-1/f87f9eb66005ed4a422368ce373a16cedce64645/org.eclipse.m2m.atl.emftvm.trace-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.19.0/d107a38aacf0b487e055df9389b22f7be628e80/org.eclipse.emf.ecore-2.19.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.common/2.16.0/198646029e658c8d3843b7ba11fdd6cdc1261b74/org.eclipse.emf.common-2.16.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.equinox/org.eclipse.equinox.common/3.6.200.v20130402-1505/f930417b1602dafb370d7b9ed7871c87e0b355b1/org.eclipse.equinox.common-3.6.200.v20130402-1505.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.0.1/51865eea92dbf1dd22f3d0666aca2fe49310e7d0/antlr-runtime-3.0.1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/6.0_BETA/aadbdec4f4b65499b3b9cde46a1da250284ab68b/asm-6.0_BETA.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.eclipse.m2m.atl/org.eclipse.m2m.atl.core/4.0.0-1/205e15bde5cc9122aca05d2e822f73340ae2b3cb/org.eclipse.m2m.atl.core-4.0.0-1.jar;C:/Users/Benjamin/.gradle/caches/modules-2/files-2.1/org.antlr/stringtemplate/3.1-b1/c1dcf0041a614fea04dc1aa97f58ae60266bee0/stringtemplate-3.1-b1.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="JavaSolutionTT2BDD" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a/kotlin-reflect-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.50/59492b8dfb92522ba0ddb5dd1c4d0ef0a4fca1af/kotlin-script-runtime-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.50/b8e0110c386c08f46a8c5e45b8c64aece1914867/kotlin-scripting-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.50/53f579e1bee3dab3df915d923ad1bb43bc37cd18/kotlin-scripting-jvm-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../solutions/JavaSolutionTT2BDD/build/classes/java/main" />
     <exclude-output />
@@ -12,8 +49,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../metamodels/ttc2019.metamodels" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../metamodels/ttc2019.metamodels/src-gen" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: org.eclipse.xtend:org.eclipse.xtend.lib:2.17.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.emftvm.compiler:4.0.0-1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.50" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.xtend:org.eclipse.xtend.lib.macro:2.17.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.xtext:org.eclipse.xtext.xbase.lib:2.17.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.engine:4.0.0-1" level="project" />
@@ -21,6 +70,8 @@
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.emftvm:4.0.0-1" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.core.emf:4.0.0-1" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.common:4.0.0-1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:21.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.16.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.emftvm.trace:4.0.0-1" level="project" />
@@ -29,6 +80,8 @@
     <orderEntry type="library" name="Gradle: org.eclipse.equinox:org.eclipse.equinox.common:3.6.200.v20130402-1505" level="project" />
     <orderEntry type="library" name="Gradle: org.antlr:antlr-runtime:3.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:6.0_BETA" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.m2m.atl:org.eclipse.m2m.atl.core:4.0.0-1" level="project" />
     <orderEntry type="library" name="Gradle: org.antlr:stringtemplate:3.1-b1" level="project" />
   </component>

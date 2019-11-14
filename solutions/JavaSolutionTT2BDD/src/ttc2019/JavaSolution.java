@@ -2,7 +2,6 @@ package ttc2019;
 
 import org.eclipse.emf.common.util.BasicEList;
 import org.eclipse.emf.common.util.EList;
-import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
@@ -15,10 +14,8 @@ import ttc2019.metamodels.tt.TruthTable;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
 
-public class Solution {
+public class JavaSolution {
 
 	private TruthTable truthTable;
 	private BDD binaryDecisionDiagram;
@@ -49,35 +46,45 @@ public class Solution {
 		binaryDecisionDiagram = bddFactory.createBDD();
 		binaryDecisionDiagram.setName(truthTable.getName());
 
-		EList<Port> inputPorts = truthTable.getPorts().stream()
-												 .filter(Solution::isInputPort)
-												 .map(port -> ttPortToBddPort(port, binaryDecisionDiagram))
-												 .collect(Collectors.toCollection(BasicEList::new));
-
-		EList<Port> ouputPortBdd = truthTable.getPorts().stream()
-                                                        .filter(port -> !Solution.isInputPort(port))
-                                                        .map(port -> ttPortToBddPort(port, binaryDecisionDiagram))
-                                                        .collect(Collectors.toCollection(BasicEList::new));
-
-		EList<Leaf> leafList = truthTable.getRows().stream().map(row -> {
-			Leaf leaf = bddFactory.createLeaf();
-			leaf.setOwnerBDD(binaryDecisionDiagram);
-			row.getCells().forEach(cell ->  {
-				Assignment assignment = bddFactory.createAssignment();
-				assignment.setOwner(leaf);
-				Optional<Port> outputPort = ouputPortBdd.stream().filter(port -> port.getName().equals(cell.getPort().getName())).findFirst();
-				outputPort.ifPresent(port -> assignment.setPort((OutputPort) port));
-			});
-			return leaf;
-		}).collect(Collectors.toCollection(BasicEList::new));
-
-		ttc2019.metamodels.bdd.InputPort mostDefinedPort = (ttc2019.metamodels.bdd.InputPort) getCorrespondingPort(mostDefinedPort(truthTable), truthTable, binaryDecisionDiagram);
-
+		/*
+		Init the top level tree
+		 */
 		Tree tree = bddFactory.createSubtree();
-        tree.setOwnerBDD(binaryDecisionDiagram);
+		tree.setOwnerBDD(binaryDecisionDiagram);
 
+
+
+		/*
+		Each Row should become a Leaf node: the Cells for the OutputPorts will
+		become Assignments.
+		 */
+//		EList<Leaf> leafList = truthTable.getRows().stream().map(row -> {
+//			Leaf leaf = bddFactory.createLeaf();
+//			leaf.setOwnerBDD(binaryDecisionDiagram);
+//			createAssignment(bddFactory, ouputPortBdd, row, leaf);
+//			return leaf;
+//		}).collect(Collectors.toCollection(BasicEList::new));
+
+		/*
+		One simple	approach is to find a TT InputPort which is (ideally) defined in all the Rows, and
+		turn it into an inner node (a Subtree) which points to the equivalent BDD InputPort	and has two Trees
+		 */
+		//ttc2019.metamodels.bdd.InputPort mostDefinedPort = (ttc2019.metamodels.bdd.InputPort) getCorrespondingPort(mostDefinedPort(truthTable), truthTable, binaryDecisionDiagram);
 
 		binaryDecisionDiagram.setTree(tree);
+	}
+
+
+
+	private void createAssignment(BDDFactory bddFactory, EList<Port> ouputPortBdd, Row row, Leaf leaf) {
+		row.getCells().stream().filter(cell -> cell instanceof OutputPort).forEach(cell ->  {
+			Assignment assignment = bddFactory.createAssignment();
+			assignment.setOwner(leaf);
+			assignment.setValue(cell.isValue());
+			Optional<Port> outputPort = ouputPortBdd.stream().filter(port -> port.getName().equals(cell.getPort().getName())).findFirst();
+			outputPort.ifPresent(port -> assignment.setPort((OutputPort) port));
+			leaf.getAssignments().add(assignment);
+		});
 	}
 
 	private static ttc2019.metamodels.bdd.Port ttPortToBddPort(ttc2019.metamodels.tt.Port port, BDD binaryDecisionDiagram) {
@@ -93,27 +100,27 @@ public class Solution {
 			bddPort.setName(port.getName());
 		}
 
+		binaryDecisionDiagram.getPorts().add(bddPort);
+
 		return bddPort;
 	}
 
-	private static ttc2019.metamodels.bdd.Port getCorrespondingPort(ttc2019.metamodels.tt.Port port, TruthTable tt, BDD binaryDecisionDiagram){
-      Optional<ttc2019.metamodels.tt.Port> result = tt.getPorts().stream().filter(ttport -> ttport.getName().equals(port.getName())).findFirst();
-      if(result.isPresent()) {
-          return ttPortToBddPort(port, binaryDecisionDiagram);
-      } else {
-          throw new RuntimeException(String.format("Port %s not present in the given truth table", port.getName()));
-      }
-    }
+	private static ttc2019.metamodels.bdd.InputPort getPort(BDD bdd, String portName) {
+		for(Port port : bdd.getPorts()) {
+			if(portName.equals(port.getName())) {
+				return (ttc2019.metamodels.bdd.InputPort) port;
+			}
+		}
 
-	private static Optional<ttc2019.metamodels.tt.InputPort> getTTPortDefinedInAllRow(ttc2019.metamodels.tt.TruthTable tt) {
-	    return tt.getPorts().stream().filter(Solution::isInputPort).filter(port -> {
-	        EList<Row> portDefinedIn = tt.getRows().stream().filter( row -> row.getCells().stream().filter(cell -> cell.getPort() == port).count() >1).collect(Collectors.toCollection(BasicEList::new));
-	        return portDefinedIn.size() == tt.getRows().size();
-        }).map( port -> (InputPort) port).findFirst();
+		ttc2019.metamodels.bdd.InputPort inputPort = BDDFactory.eINSTANCE.createInputPort();
+		inputPort.setName(portName);
+		bdd.getPorts().add(inputPort);
+
+		return inputPort;
 	}
 
 	private InputPort mostDefinedPort(TruthTable tt) {
-		tt.getPorts().stream().filter(Solution::isInputPort).forEach(port -> numberOfDefinitionPort(tt, (InputPort) port));
+		tt.getPorts().stream().filter(JavaSolution::isInputPort).forEach(port -> numberOfDefinitionPort(tt, (InputPort) port));
 		return Collections.max(rowsDefinition.entrySet(), Comparator.comparingInt(Map.Entry::getValue)).getKey();
 	}
 
@@ -129,9 +136,10 @@ public class Solution {
 	}
 
 	private static EList<Row> listRowFor(ttc2019.metamodels.tt.Port port, TruthTable tt, boolean value) {
-		/* return tt.getRows().stream().filter( row -> {
-			return true;
+		/*  return tt.getRows().stream().filter( row -> {
+
 		}); */
+		return new BasicEList();
 	}
 
 

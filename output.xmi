@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<bdd:BDD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bdd="https://www.transformation-tool-contest.eu/2019/bdd" name="TableI4O2Seed42">
+<bdd:BDD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bdd="https://www.transformation-tool-contest.eu/2019/bdd" name="TableI8O2Seed68">
   <ports xsi:type="bdd:InputPort" name="I0"/>
   <ports xsi:type="bdd:InputPort" name="I1"/>
   <ports xsi:type="bdd:InputPort" name="I2"/>
   <ports xsi:type="bdd:InputPort" name="I3"/>
+  <ports xsi:type="bdd:InputPort" name="I4"/>
+  <ports xsi:type="bdd:InputPort" name="I5"/>
+  <ports xsi:type="bdd:InputPort" name="I6"/>
+  <ports xsi:type="bdd:InputPort" name="I7"/>
   <ports xsi:type="bdd:OutputPort" name="O0"/>
   <ports xsi:type="bdd:OutputPort" name="O1"/>
+  <ports xsi:type="bdd:InputPort" name="I0"/>
   <tree xsi:type="bdd:Subtree"/>
 </bdd:BDD>

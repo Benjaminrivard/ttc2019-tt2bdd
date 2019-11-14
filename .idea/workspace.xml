@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/KotlinSolution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/output.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +99,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -108,14 +121,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/metamodels/ttc2019.metamodels" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.45949075" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -314,7 +328,10 @@
       <workItem from="1573032129345" duration="34000" />
       <workItem from="1573154413972" duration="3490000" />
       <workItem from="1573578173649" duration="199000" />
-      <workItem from="1573648433471" duration="9576000" />
+      <workItem from="1573648433471" duration="11287000" />
+      <workItem from="1573669494818" duration="6980000" />
+      <workItem from="1573714812337" duration="5781000" />
+      <workItem from="1573749764463" duration="4200000" />
     </task>
     <task id="LOCAL-00001" summary="adapt ./gradlew command to windows --&gt; gradlew.bat">
       <created>1571119574283</created>

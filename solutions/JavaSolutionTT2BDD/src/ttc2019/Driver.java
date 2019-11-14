@@ -33,7 +33,8 @@ public class Driver {
 
 	private static long stopwatch;
 
-	private static Solution solution;
+
+	private static JavaSolution solution;
 	private static String ModelPath;
 
 	private static Object loadFile(final String path) {
@@ -77,7 +78,7 @@ public class Driver {
 		Tool = "JavaSolutionTT2BDD";
 		RunIndex = "1";
 
-		solution = new Solution();
+		solution = new JavaSolution();
 
 		stopwatch = System.nanoTime() - stopwatch;
 		report(BenchmarkPhase.Initialization);

@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../solutions/ATLEMFTVMImproved/build/classes/java/main" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../metamodels">
+      <sourceFolder url="file://$MODULE_DIR$/../../metamodels/ttc2019.metamodels/src-gen" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../solutions/ATLEMFTVMImproved/build/xtend/main" />
     <content url="file://$MODULE_DIR$/../../solutions/ATLEMFTVMImproved/src">
       <sourceFolder url="file://$MODULE_DIR$/../../solutions/ATLEMFTVMImproved/src" isTestSource="false" />
