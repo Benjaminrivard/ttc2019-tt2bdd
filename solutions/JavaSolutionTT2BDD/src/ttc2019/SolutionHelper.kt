@@ -1,69 +1,94 @@
 package ttc2019
 
 import org.eclipse.emf.common.util.BasicEList
-import org.eclipse.emf.common.util.EList
 import ttc2019.metamodels.bdd.*
-import ttc2019.metamodels.bdd.OutputPort
-import ttc2019.metamodels.tt.*
+import ttc2019.metamodels.tt.Cell
 import ttc2019.metamodels.tt.Port
+import ttc2019.metamodels.tt.Row
+import ttc2019.metamodels.tt.TTFactory
 
 object SolutionHelper {
+
+    var instance: BDD? = null
+
     /**
      * @param BDD the binary decision diagram
      * @param String the port's name (Identifier in the case of this transformation)
+     * @return the corresponding input port
      */
-    fun getInputPort(bdd: BDD, portName: String): ttc2019.metamodels.bdd.InputPort {
+    fun getInputPort(bdd: BDD, portName: String): InputPort {
         bdd.ports.forEach {
             if (portName == it.name) {
-                return it as ttc2019.metamodels.bdd.InputPort
+                return it as InputPort
             }
         }
         val inputPort = BDDFactory.eINSTANCE.createInputPort()
         inputPort.name = portName
+        inputPort.owner = bdd
         bdd.ports.add(inputPort)
 
         return inputPort
     }
 
+    /**
+    * @param BDD the binary decision diagram
+    * @param String the port's name (Identifier in the case of this transformation)
+     *@return the corresponding output port
+    */
     fun getOutputPort(bdd: BDD, portName: String): OutputPort {
         bdd.ports.forEach {
             if (portName == it.name) {
                 return it as OutputPort
             }
         }
-
         val outputPort = BDDFactory.eINSTANCE.createOutputPort()
         outputPort.name = portName
+        outputPort.owner = bdd
         bdd.ports.add(outputPort)
         return outputPort
     }
 
+    /**
+     * Each Row should become a Leaf node: the Cells for the OutputPorts will
+     * become Assignments.
+     */
     fun rowToLeaf(row: Row) : Leaf {
         val leaf = BDDFactory.eINSTANCE.createLeaf()
         val cells = row.cells.filter { cell -> cell.port !is OutputPort }.map { cell -> cell}
         cells.forEach {
-            cell -> leaf.assignments.add(cellToAssignement(cell))
+            cell ->
+            when(cell.port) {
+                is ttc2019.metamodels.tt.OutputPort -> leaf.assignments.add(cellToAssignement(cell, leaf))
+            }
+        }
+        instance?.let {
+            leaf.ownerBDD = it
         }
         return leaf
     }
 
-    fun cellToAssignement (cell: Cell) : Assignment {
+    /**
+     * Transform a cell to an assignement
+     */
+    fun cellToAssignement (cell: Cell, leaf: Leaf) : Assignment {
         val assignment = BDDFactory.eINSTANCE.createAssignment()
-        val port = BDDFactory.eINSTANCE.createOutputPort()
-        port.name = cell.port.name
+        val port = getOutputPort(instance!!, cell.port.name)
         assignment.isValue = cell.isValue
         assignment.port = port
-
+        assignment.owner = leaf
+        port.assignments.add(assignment)
         return assignment
     }
 
     fun tripleToTree(triple: Triple<Cell, Tree, Tree>): Tree {
         val tree = BDDFactory.eINSTANCE.createSubtree()
-        val port = BDDFactory.eINSTANCE.createInputPort()
+        val port = getInputPort(instance!!, triple.first.port.name)
         port.name = triple.first.port.name
         tree.port = port
         tree.treeForZero = triple.second
         tree.treeForOne = triple.third
+        port.subtrees.add(tree)
+
         return tree
     }
 
@@ -73,26 +98,6 @@ object SolutionHelper {
         port.name = cell.port.name
         tree.port = port
         return tree
-    }
-
-    fun getNode(cell: Cell, tree: Tree) {
-        //cell.owner.owner.
-    }
-
-    fun collectAllNodes(tree: Tree) : Set<Tree> {
-        if (tree.ownerSubtreeForZero is Row) {
-            if(tree.ownerSubtreeForOne is Row) {
-                return emptySet()
-            } else {
-                return collectAllNodes(tree.ownerSubtreeForZero)
-            }
-        } else {
-            if(tree.ownerSubtreeForOne is Row) {
-                return collectAllNodes(tree.ownerSubtreeForZero)
-            } else {
-                return collectAllNodes(tree.ownerSubtreeForZero).union(collectAllNodes(tree.ownerSubtreeForOne))
-            }
-        }
     }
 
     /**
@@ -109,22 +114,30 @@ object SolutionHelper {
         var treeForZero: List<Row> = BasicEList()
 
         rows.forEach {row ->
-            if(!trueCellsByPort(row)[port].isNullOrEmpty()) {
-                treeForOne = treeForOne.plus(row)
+            if(!(trueCellsByPort(row)[port].isNullOrEmpty())) {
+                treeForOne=  treeForOne.plus(row)
             }
         }
 
         rows.forEach {row ->
-            if(!falseCellsByPort(row)[port].isNullOrEmpty()) {
-                treeForZero = treeForZero.plus(row)
+            if(!(falseCellsByPort(row)[port].isNullOrEmpty())) {
+               treeForZero = treeForZero.plus(row)
             }
         }
         return Pair(treeForZero, treeForOne)
     }
 
-    fun getTree(rows : List<Row>, ports : List<Port>) : Triple<Cell,Tree, Tree> {
+    /**
+     * One simple	approach is to find a TT InputPort which is (ideally) defined in all the Rows, and
+     * turn it into an inner node (a Subtree) which points to the equivalent BDD InputPort	and has two Trees
+     */
+    fun getTree(rows : List<Row>, ports : List<Port>) : Tree {
+        /**
+         *  Get the port that is the most defined
+         */
         val port = getPort(ports, rows)
-        port?.let {
+
+        if(port != null ) {
             //Select a cell that defines the value
             var _cell : Cell  = TTFactory.eINSTANCE.createCell()
             for(row in rows) {
@@ -144,22 +157,29 @@ object SolutionHelper {
             var first : Tree = BDDFactory.eINSTANCE.createSubtree()
             var second : Tree = BDDFactory.eINSTANCE.createSubtree()
 
-            when(part.first.size) {
-                1 -> first = rowToLeaf(part.first[0])
+            first = when(part.first.size) {
+                1 -> rowToLeaf(part.first[0])
                 else -> getTree(part.first, newPorts)
             }
 
-            when(part.second.size) {
-                1 -> second = rowToLeaf(part.second[0])
+            second = when(part.second.size) {
+                1 -> rowToLeaf(part.second[0])
                 else -> getTree(part.second, newPorts)
             }
 
-            return Triple(_cell, first, second)
+            val triple = Triple(_cell, first, second)
+            return tripleToTree(triple)
+        } else {
+            throw Exception()
         }
     }
 
     /**
      * Among the usable ports, select one where the value is defined for all rows
+     * @param List<Port> the sequence of ports
+     * @param List<Row> the sequence of rows
+     *
+     * @return the port fit the criteria
      */
     fun getPort(ports : List<Port>, rows : List<Row>) : Port? {
         return ports.find { port ->
@@ -176,7 +196,16 @@ object SolutionHelper {
      * @return The map with for key : each port and for value the cells with values of true in the row
      */
     fun trueCellsByPort(row: Row): Map<Port, List<Cell>> {
-        return row.cells.associateBy({ it.port }, { row.cells.filter { cell -> cell.isValue } })
+        var partition : Map<Port, List<Cell>> = LinkedHashMap()
+        val ports : Set<Port> = row.cells.map{ cell -> cell.port}.toSet()
+
+        ports.forEach { port ->
+            val cells = row.cells.filter { cell -> cell.isValue && cell.port == port}
+            val pair = Pair(port, cells)
+            partition = partition.plus(pair)
+        }
+
+        return partition
     }
 
     /**
@@ -184,6 +213,15 @@ object SolutionHelper {
      * @return The map with for key : each port and for value the cells with values of false in the row
      */
     fun falseCellsByPort(row: Row): Map<Port, List<Cell>> {
-        return row.cells.associateBy({ it.port }, { row.cells.filter { cell -> !cell.isValue } })
+        var partition : Map<Port, List<Cell>> = LinkedHashMap()
+        val ports : Set<Port> = row.cells.map{ cell -> cell.port}.toSet()
+
+        ports.forEach { port ->
+            val cells = row.cells.filter { cell -> !cell.isValue && cell.port == port}
+            val pair = Pair(port, cells)
+            partition = partition.plus(pair)
+        }
+
+        return partition
     }
 }

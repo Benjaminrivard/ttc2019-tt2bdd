@@ -51,7 +51,7 @@ public class Driver {
 		stopwatch = System.nanoTime();
 		solution.setTruthTable((TruthTable) loadFile(ModelPath));
 
-		final URI uri = URI.createFileURI(new File("output.xmi").getCanonicalPath());
+		final URI uri = URI.createFileURI(new File("output"+".xmi").getCanonicalPath());
 		final Resource outputResource = repository.createResource(uri);
 		outputResource.getContents().clear();
 		solution.setOutputResource(outputResource);
@@ -73,10 +73,6 @@ public class Driver {
 		ModelPath = System.getenv("ModelPath");
 		RunIndex = System.getenv("RunIndex");
 		Tool = System.getenv("Tool");
-		Model = "GeneratedI8O2Seed68.ttmodel";
-		ModelPath = "./models/GeneratedI8O2Seed68.ttmodel";
-		Tool = "JavaSolutionTT2BDD";
-		RunIndex = "1";
 
 		solution = new KotlinSolution();
 

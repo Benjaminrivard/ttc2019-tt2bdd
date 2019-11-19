@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/output.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/KotlinSolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/KotlinSolution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" afterDir="false" />
     </list>
@@ -169,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.JavaSolutionTT2BDD [build]">
+  <component name="RunManager" selected="Application.Driver">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ttc2019.Driver" />
       <module name="JavaSolutionTT2BDD.main" />
@@ -348,7 +345,8 @@
       <workItem from="1574000561115" duration="5626000" />
       <workItem from="1574062520482" duration="605000" />
       <workItem from="1574167002551" duration="478000" />
-      <workItem from="1574167523158" duration="96000" />
+      <workItem from="1574167523158" duration="7211000" />
+      <workItem from="1574175280871" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="adapt ./gradlew command to windows --&gt; gradlew.bat">
       <created>1571119574283</created>

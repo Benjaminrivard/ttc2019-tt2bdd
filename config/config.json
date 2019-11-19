@@ -1,7 +1,8 @@
 {
   "Tools": [
-    "JavaSolutionTT2BDD"
-
+    "JavaSolutionTT2BDD",
+    "ATLEMFTVMImproved",
+    "EMFSolutionATL"
   ],
   "Models": [
     "GeneratedI4O2Seed42.ttmodel"
