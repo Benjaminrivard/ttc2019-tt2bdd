@@ -7,6 +7,7 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import ttc2019.metamodels.bdd.*;
+import ttc2019.metamodels.bdd.BDDFactory;
 import ttc2019.metamodels.bdd.impl.BDDFactoryImpl;
 import ttc2019.metamodels.tt.InputPort;
 import ttc2019.metamodels.tt.Row;

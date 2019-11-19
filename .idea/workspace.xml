@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/KotlinSolution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/output.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/KotlinSolution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/KotlinSolution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +63,29 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/solutions/Fulib">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="JavaSolutionTT2BDD" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaSolutionTT2BDD" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaSolutionTT2BDD" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -144,6 +154,7 @@
       <command value="gradle run" />
       <command value="gradle benchmark*" />
       <command value="gradle benchmark" />
+      <command value="gradle build" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -158,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Gradle.JavaSolutionTT2BDD [build]">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ttc2019.Driver" />
       <module name="JavaSolutionTT2BDD.main" />
@@ -172,6 +183,44 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Fulib [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/solutions/Fulib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaSolutionTT2BDD [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ttc2019-tt2bdd [benchmark]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -211,57 +260,20 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ttc2019-tt2bdd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ttc2019-tt2bdd" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/run.py" />
-      <option name="PARAMETERS" value="-b" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.Driver" />
-      <item itemvalue="Gradle.ttc2019-tt2bdd" />
       <item itemvalue="Gradle.ttc2019-tt2bdd [benchmark*]" />
       <item itemvalue="Gradle.ttc2019-tt2bdd [benchmark]" />
+      <item itemvalue="Gradle.Fulib [build]" />
+      <item itemvalue="Gradle.JavaSolutionTT2BDD [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JavaSolutionTT2BDD [build]" />
+        <item itemvalue="Gradle.Fulib [build]" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Gradle.ttc2019-tt2bdd [benchmark]" />
         <item itemvalue="Gradle.ttc2019-tt2bdd [benchmark*]" />
-        <item itemvalue="Gradle.ttc2019-tt2bdd" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +343,12 @@
       <workItem from="1573648433471" duration="11287000" />
       <workItem from="1573669494818" duration="6980000" />
       <workItem from="1573714812337" duration="5781000" />
-      <workItem from="1573749764463" duration="4200000" />
+      <workItem from="1573749764463" duration="4506000" />
+      <workItem from="1573934526816" duration="5576000" />
+      <workItem from="1574000561115" duration="5626000" />
+      <workItem from="1574062520482" duration="605000" />
+      <workItem from="1574167002551" duration="478000" />
+      <workItem from="1574167523158" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="adapt ./gradlew command to windows --&gt; gradlew.bat">
       <created>1571119574283</created>
@@ -416,5 +433,16 @@
     <MESSAGE value="YAMTL  : OK&#10;Removed RSYNC because doesn't run" />
     <MESSAGE value="transfo des row en leaf et cell en ass" />
     <option name="LAST_COMMIT_MESSAGE" value="transfo des row en leaf et cell en ass" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

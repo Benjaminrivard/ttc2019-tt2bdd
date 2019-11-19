@@ -13,8 +13,8 @@ import java.util.*
 
 class KotlinSolution {
 
+    var binaryDecisionDiagram : BDD? = null
     var truthTable: TruthTable? = null
-    private var binaryDecisionDiagram: BDD? = null
     var outputResource: Resource? = null
     private var rowsDefinition : Map<InputPort, Int> = HashMap()
     private val service = SolutionHelper
@@ -24,14 +24,15 @@ class KotlinSolution {
 		Init the binary decision diagram
 		 */
         val bddFactory = BDDFactoryImpl.init()
-        binaryDecisionDiagram = bddFactory.createBDD()
-        binaryDecisionDiagram!!.name = truthTable!!.name
+        binaryDecisionDiagram = BDDFactory.eINSTANCE.createBDD()
+        binaryDecisionDiagram?.name = truthTable?.name
 
         /*
 		Init the top level tree
 		 */
-        val tree = bddFactory.createSubtree()
-        tree.ownerBDD = binaryDecisionDiagram
+        val tree = service.getTree(truthTable!!.rows, truthTable!!.ports)
+        binaryDecisionDiagram?.tree = service.tripleToTree(tree)
+
 
 
         /*
@@ -51,21 +52,34 @@ class KotlinSolution {
 		 */
 //        val mostDefinedPort = getCorrespondingPort(mostDefinedPort(truthTable!!), truthTable, binaryDecisionDiagram) as ttc2019.metamodels.bdd.InputPort
 
-        binaryDecisionDiagram!!.tree = tree
     }
 
 
-    private fun createAssignment(bddFactory: BDDFactory, ouputPortBdd: EList<Port>, row: Row, leaf: Leaf) {
-        row.cells.stream().filter { cell -> cell is OutputPort }.forEach { cell ->
-            val assignment = bddFactory.createAssignment()
-            assignment.owner = leaf
-            assignment.isValue = cell.isValue
-            val outputPort = ouputPortBdd.stream().filter { port -> port.name == cell.port.name }.findFirst()
-            outputPort.ifPresent { port -> assignment.port = port as OutputPort }
-            leaf.assignments.add(assignment)
-        }
-    }
+      /**
+     * @param BDD the bdd
+     * @param TruthTable the truthtable
+     * @return a tree or subtree from the tuples given
+     */
+    fun getTree(bdd : BDD, truthTable: TruthTable)  {
+     /*   if(truthTable.rows.size == 1) {
+            val leaf = BDDFactory.eINSTANCE.createLeaf()
+            numberOfNode++
 
+            truthTable.ports.forEach {
+                port ->
+                when(port) {
+                    is OutputPort -> {
+                        val assignment: Assignment = service.cellToAssignement(bdd, truthTable.rows[0].cells.filter { it.port == port}.first())
+                        leaf.assignments.add(assignment)
+                    }
+                }
+            }
+            return leaf
+        } else {
+            val port = mostDefinedPort(truthTable)
+            val partition = service.getPartition()
+        } */
+    }
 
      /**
      *  Get the port that is the most defined

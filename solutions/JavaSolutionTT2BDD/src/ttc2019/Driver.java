@@ -34,7 +34,7 @@ public class Driver {
 	private static long stopwatch;
 
 
-	private static JavaSolution solution;
+	private static KotlinSolution solution;
 	private static String ModelPath;
 
 	private static Object loadFile(final String path) {
@@ -78,7 +78,7 @@ public class Driver {
 		Tool = "JavaSolutionTT2BDD";
 		RunIndex = "1";
 
-		solution = new JavaSolution();
+		solution = new KotlinSolution();
 
 		stopwatch = System.nanoTime() - stopwatch;
 		report(BenchmarkPhase.Initialization);
