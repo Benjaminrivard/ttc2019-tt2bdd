@@ -51,7 +51,7 @@ public class Driver {
 		stopwatch = System.nanoTime();
 		solution.setTruthTable((TruthTable) loadFile(ModelPath));
 
-		final URI uri = URI.createFileURI(new File("output"+".xmi").getCanonicalPath());
+		final URI uri = URI.createFileURI(new File(String.format("%s.bddmodel",Model)).getCanonicalPath());
 		final Resource outputResource = repository.createResource(uri);
 		outputResource.getContents().clear();
 		solution.setOutputResource(outputResource);

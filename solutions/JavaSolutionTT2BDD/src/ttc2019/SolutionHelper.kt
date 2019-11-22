@@ -154,8 +154,8 @@ object SolutionHelper {
             val newPorts = ports.minus(port)
 
             // Build the resulting tuple : the tree structure is created recursively
-            var first : Tree = BDDFactory.eINSTANCE.createSubtree()
-            var second : Tree = BDDFactory.eINSTANCE.createSubtree()
+            val first: Tree
+            val second: Tree
 
             first = when(part.first.size) {
                 1 -> rowToLeaf(part.first[0])
