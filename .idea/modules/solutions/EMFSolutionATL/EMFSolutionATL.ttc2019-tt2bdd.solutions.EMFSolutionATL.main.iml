@@ -6,9 +6,7 @@
     <content url="file://$MODULE_DIR$/../../../../metamodels">
       <sourceFolder url="file://$MODULE_DIR$/../../../../metamodels/ttc2019.metamodels/src-gen" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/build/xtend/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/build/xtend/main" isTestSource="false" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/build/xtend/main" />
     <content url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/src">
       <sourceFolder url="file://$MODULE_DIR$/../../../../solutions/EMFSolutionATL/src" isTestSource="false" />
     </content>

@@ -13,30 +13,36 @@ import java.util.*
 
 class KotlinSolution {
 
-    var binaryDecisionDiagram : BDD? = null
+    var binaryDecisionDiagram: BDD? = null
     var truthTable: TruthTable? = null
     var outputResource: Resource? = null
-    private var rowsDefinition : Map<InputPort, Int> = HashMap()
     private val service = SolutionHelper
 
     fun run() {
         /*
 		Init the binary decision diagram
+        Each TruthTable object should correspond to a BDD object, with the same
+        name and equivalent Ports.
 		 */
         BDDFactoryImpl.init()
         binaryDecisionDiagram = BDDFactory.eINSTANCE.createBDD()
         binaryDecisionDiagram?.name = truthTable?.name
 
         service.instance = binaryDecisionDiagram
+        /*
+            Each InputPort and OutputPort should be mapped to an object of the BDD
+            type with the same name, and should be assigned the same name.
+
+         */
         truthTable!!.ports.forEach { port ->
-            when(port) {
-                is InputPort -> binaryDecisionDiagram!!.ports.add(service.getInputPort(binaryDecisionDiagram!!,port.name))
+            when (port) {
+                is InputPort -> binaryDecisionDiagram!!.ports.add(service.getInputPort(binaryDecisionDiagram!!, port.name))
                 is OutputPort -> binaryDecisionDiagram!!.ports.add(service.getOutputPort(binaryDecisionDiagram!!, port.name))
             }
         }
 
         /*
-		Init the top level tree
+		 Let the recursion begin
 		 */
         val tree = service.getTree(truthTable!!.rows, truthTable!!.ports)
         binaryDecisionDiagram?.tree = tree

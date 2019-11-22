@@ -92,14 +92,6 @@ object SolutionHelper {
         return tree
     }
 
-    fun cellToSubTree(cell: Cell) : Subtree {
-        val tree = BDDFactory.eINSTANCE.createSubtree()
-        val port = BDDFactory.eINSTANCE.createInputPort()
-        port.name = cell.port.name
-        tree.port = port
-        return tree
-    }
-
     /**
      * Partition of the a sequence of the truthtable
      *
