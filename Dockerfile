@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 # Install TTC2019 language environments
 #
 # Use plain wget to install dotnet to avoid outdated InRelease file:
-# https://github.com/microsoft/vscode/issues/77562
+# https://github.com/microsoft/vsSode/issues/77562
 
 RUN  (echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list) && \
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823 && \
@@ -26,7 +26,7 @@ RUN  (echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.l
 
 # Prepare YAMTL solution
 WORKDIR /ttc/solutions/EMFSolutionYAMTL
-RUN ./gradlew build && \
+RUN gradlew build && \
   tar tf build/distributions/EMFSolutionYAMTL-0.0.4-SNAPSHOT.tar && \
   sed -i 's#cmd=.*#cmd=JAVA_OPTS="-Xms4g -Xmx12g" EMFSolutionYAMTL-0.0.4-SNAPSHOT/bin/EMFSolutionYAMTL#g' solution.ini
 

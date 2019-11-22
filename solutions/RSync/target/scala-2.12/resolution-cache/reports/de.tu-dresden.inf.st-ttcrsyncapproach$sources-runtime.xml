@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="de.tu-dresden.inf.st"
+		module="ttcrsyncapproach$sources"
+		revision="0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191015113025"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427103633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="587933" time="321" location="C:\Users\Benjamin\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427104006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="992293" time="1897" location="C:\Users\Benjamin\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.max-leuthaeuser" name="scroll_2.12">
+			<revision name="1.8" status="release" pubdate="20190107140711" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/max-leuthaeuser/SCROLL" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="LGPL 3.0 license" url="http://www.opensource.org/licenses/lgpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="4247" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.github.max-leuthaeuser\scroll_2.12\ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/max-leuthaeuser/scroll_2.12/1.8/scroll_2.12-1.8.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scroll_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="40396" time="2302" location="C:\Users\Benjamin\.ivy2\cache\com.github.max-leuthaeuser\scroll_2.12\srcs\scroll_2.12-1.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/max-leuthaeuser/scroll_2.12/1.8/scroll_2.12-1.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.uml2" name="org.eclipse.uml2.uml">
+			<revision name="3.1.0.v201006071150" status="release" pubdate="20100923062630" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3068" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.uml2\org.eclipse.uml2.uml\ivy-3.1.0.v201006071150.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/uml2/org.eclipse.uml2.uml/3.1.0.v201006071150/org.eclipse.uml2.uml-3.1.0.v201006071150.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="3.1.0.v201006071150" rev-constraint-default="3.1.0.v201006071150" rev-constraint-dynamic="3.1.0.v201006071150" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.uml2.uml" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2840940" time="2162" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.uml2\org.eclipse.uml2.uml\srcs\org.eclipse.uml2.uml-3.1.0.v201006071150-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/uml2/org.eclipse.uml2.uml/3.1.0.v201006071150/org.eclipse.uml2.uml-3.1.0.v201006071150-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.emf" name="org.eclipse.emf.mapping.ecore2xml">
+			<revision name="2.5.0.v20100521-1847" status="release" pubdate="20100923062039" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.mapping.ecore2xml\ivy-2.5.0.v20100521-1847.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.mapping.ecore2xml/2.5.0.v20100521-1847/org.eclipse.emf.mapping.ecore2xml-2.5.0.v20100521-1847.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.5.0.v20100521-1847" rev-constraint-default="2.5.0.v20100521-1847" rev-constraint-dynamic="2.5.0.v20100521-1847" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.emf.mapping.ecore2xml" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="27234" time="578" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.mapping.ecore2xml\srcs\org.eclipse.emf.mapping.ecore2xml-2.5.0.v20100521-1847-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.mapping.ecore2xml/2.5.0.v20100521-1847/org.eclipse.emf.mapping.ecore2xml-2.5.0.v20100521-1847-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.emf" name="org.eclipse.emf.ecore.xmi">
+			<revision name="2.5.0.v20100521-1846" status="release" pubdate="20100923061959" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2902" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.ecore.xmi\ivy-2.5.0.v20100521-1846.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore.xmi/2.5.0.v20100521-1846/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.5.0.v20100521-1846" rev-constraint-default="2.5.0.v20100521-1846" rev-constraint-dynamic="2.5.0.v20100521-1846" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.emf.ecore.xmi" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="142743" time="250" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.ecore.xmi\srcs\org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore.xmi/2.5.0.v20100521-1846/org.eclipse.emf.ecore.xmi-2.5.0.v20100521-1846-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.uml2" name="org.eclipse.uml2.common">
+			<revision name="1.5.0.v201005031530" status="release" pubdate="20100923062112" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2886" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.uml2\org.eclipse.uml2.common\ivy-1.5.0.v201005031530.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/uml2/org.eclipse.uml2.common/1.5.0.v201005031530/org.eclipse.uml2.common-1.5.0.v201005031530.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.5.0.v201005031530" rev-constraint-default="1.5.0.v201005031530" rev-constraint-dynamic="1.5.0.v201005031530" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.uml2.common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44367" time="462" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.uml2\org.eclipse.uml2.common\srcs\org.eclipse.uml2.common-1.5.0.v201005031530-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/uml2/org.eclipse.uml2.common/1.5.0.v201005031530/org.eclipse.uml2.common-1.5.0.v201005031530-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.emf" name="org.eclipse.emf.ecore">
+			<revision name="2.15.0" status="release" pubdate="20180914083606" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/emf" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Eclipse Public License Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3045" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.ecore\ivy-2.15.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/2.15.0/org.eclipse.emf.ecore-2.15.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.15.0" rev-constraint-default="2.15.0" rev-constraint-dynamic="2.15.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.emf.ecore" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="837231" time="1850" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.ecore\srcs\org.eclipse.emf.ecore-2.15.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.ecore/2.15.0/org.eclipse.emf.ecore-2.15.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.emf" name="org.eclipse.emf.common">
+			<revision name="2.15.0" status="release" pubdate="20180914083819" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/emf" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Eclipse Public License Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2727" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.common\ivy-2.15.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/2.15.0/org.eclipse.emf.common-2.15.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.15.0" rev-constraint-default="2.15.0" rev-constraint-dynamic="2.15.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.eclipse.emf.common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="224000" time="252" location="C:\Users\Benjamin\.ivy2\cache\org.eclipse.emf\org.eclipse.emf.common\srcs\org.eclipse.emf.common-2.15.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/emf/org.eclipse.emf.common/2.15.0/org.eclipse.emf.common-2.15.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.choco-solver" name="choco-solver">
+			<revision name="4.10.0" status="release" pubdate="20181213161816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://choco-solver.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="BSD 4-Clause License" url="https://spdx.org/licenses/BSD-4-Clause.html"/>
+				<metadata-artifact status="no" details="" size="4762" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.choco-solver\choco-solver\ivy-4.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/choco-solver/choco-solver/4.10.0/choco-solver-4.10.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="4.10.0" rev-constraint-default="4.10.0" rev-constraint-dynamic="4.10.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="choco-solver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="987178" time="532" location="C:\Users\Benjamin\.ivy2\cache\org.choco-solver\choco-solver\srcs\choco-solver-4.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/choco-solver/choco-solver/4.10.0/choco-solver-4.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.knowm.xchart" name="xchart">
+			<revision name="3.5.2" status="release" pubdate="20180503122259" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3865" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.knowm.xchart\xchart\ivy-3.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/knowm/xchart/xchart/3.5.2/xchart-3.5.2.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xchart" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="149430" time="253" location="C:\Users\Benjamin\.ivy2\cache\org.knowm.xchart\xchart\srcs\xchart-3.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/knowm/xchart/xchart/3.5.2/xchart-3.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.erichseifert.vectorgraphics2d" name="VectorGraphics2D">
+			<revision name="0.13" status="release" pubdate="20170808203602" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/eseifert/vectorgraphics2d/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="GNU Library or Lesser General Public License (LGPL)" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3376" time="0" location="C:\Users\Benjamin\.ivy2\cache\de.erichseifert.vectorgraphics2d\VectorGraphics2D\ivy-0.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="0.13" rev-constraint-default="0.13" rev-constraint-dynamic="0.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="VectorGraphics2D" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="101837" time="312" location="C:\Users\Benjamin\.ivy2\cache\de.erichseifert.vectorgraphics2d\VectorGraphics2D\srcs\VectorGraphics2D-0.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cp-profiler" name="cpprof-java">
+			<revision name="1.3.0" status="release" pubdate="20160913172412" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cp-profiler/java-integration" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Custom License" url="https://github.com/cp-profiler/java-integration/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3115" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.github.cp-profiler\cpprof-java\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cpprof-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10673" time="1684" location="C:\Users\Benjamin\.ivy2\cache\com.github.cp-profiler\cpprof-java\srcs\cpprof-java-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/cp-profiler/cpprof-java/1.3.0/cpprof-java-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.6.1" status="release" pubdate="20141023031025" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://developers.google.com/protocol-buffers/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3189" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="308705" time="374" location="C:\Users\Benjamin\.ivy2\cache\com.google.protobuf\protobuf-java\srcs\protobuf-java-2.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jgrapht" name="jgrapht-core">
+			<revision name="1.3.0" status="release" pubdate="20181112203933" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="GNU Lesser General Public License Version 2.1, February 1999" url="http://jgrapht.sourceforge.net/LGPL.html"/>
+				<license name="Eclipse Public License (EPL) 2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="5536" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.jgrapht\jgrapht-core\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-core/1.3.0/jgrapht-core-1.3.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jgrapht-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="725642" time="270" location="C:\Users\Benjamin\.ivy2\cache\org.jgrapht\jgrapht-core\srcs\jgrapht-core-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-core/1.3.0/jgrapht-core-1.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jheaps" name="jheaps">
+			<revision name="0.9" status="release" pubdate="20180915154841" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jheaps.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4194" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.jheaps\jheaps\ivy-0.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jheaps/jheaps/0.9/jheaps-0.9.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jheaps" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="138602" time="324" location="C:\Users\Benjamin\.ivy2\cache\org.jheaps\jheaps\srcs\jheaps-0.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jheaps/jheaps/0.9/jheaps-0.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dk.brics.automaton" name="automaton">
+			<revision name="1.11-8" status="release" pubdate="20111204160457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.brics.dk/automaton/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2730" time="0" location="C:\Users\Benjamin\.ivy2\cache\dk.brics.automaton\automaton\ivy-1.11-8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.11-8" rev-constraint-default="1.11-8" rev-constraint-dynamic="1.11-8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="automaton" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="66480" time="212" location="C:\Users\Benjamin\.ivy2\cache\dk.brics.automaton\automaton\srcs\automaton-1.11-8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.choco-solver" name="cutoffseq">
+			<revision name="1.0.4" status="release" pubdate="20180612142618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/chocoteam/cutoffseq" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="BSD 4-Clause License" url="https://spdx.org/licenses/BSD-4-Clause.html"/>
+				<metadata-artifact status="no" details="" size="3247" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.choco-solver\cutoffseq\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/choco-solver/cutoffseq/1.0.4/cutoffseq-1.0.4.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cutoffseq" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4083" time="249" location="C:\Users\Benjamin\.ivy2\cache\org.choco-solver\cutoffseq\srcs\cutoffseq-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/choco-solver/cutoffseq/1.0.4/cutoffseq-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.choco-solver" name="choco-sat">
+			<revision name="1.0.2" status="release" pubdate="20160311113021" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/chocoteam/choco-sat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="BSD 4-Clause License" url="https://spdx.org/licenses/BSD-4-Clause.html"/>
+				<metadata-artifact status="no" details="" size="3166" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.choco-solver\choco-sat\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/choco-solver/choco-sat/1.0.2/choco-sat-1.0.2.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="choco-sat" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8599" time="255" location="C:\Users\Benjamin\.ivy2\cache\org.choco-solver\choco-sat\srcs\choco-sat-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/choco-solver/choco-sat/1.0.2/choco-sat-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.trove4j" name="trove4j">
+			<revision name="3.0.3" status="release" pubdate="20120604050433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://trove4j.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="GNU Lesser General Public License 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2579" time="0" location="C:\Users\Benjamin\.ivy2\cache\net.sf.trove4j\trove4j\ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="trove4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1793123" time="457" location="C:\Users\Benjamin\.ivy2\cache\net.sf.trove4j\trove4j\srcs\trove4j-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.3" status="release" pubdate="20171231155153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3267" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.chuusai\shapeless_2.12\ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="172402" time="240" location="C:\Users\Benjamin\.ivy2\cache\com.chuusai\shapeless_2.12\srcs\shapeless_2.12-2.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102094258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1052" time="246" location="C:\Users\Benjamin\.ivy2\cache\org.typelevel\macro-compat_2.12\srcs\macro-compat_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.19" status="release" pubdate="20181207121755" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.19" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\ivy-2.5.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.5.19" rev-constraint-default="2.5.19" rev-constraint-dynamic="2.5.19" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.19"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="561773" time="333" location="C:\Users\Benjamin\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\srcs\akka-actor_2.12-2.5.19-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030001227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3072" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="63853" time="255" location="C:\Users\Benjamin\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\srcs\scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.3" status="release" pubdate="20180221150821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2909" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.typesafe\config\ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="172783" time="263" location="C:\Users\Benjamin\.ivy2\cache\com.typesafe\config\srcs\config-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="27.0.1-jre" status="release" pubdate="20181119200526" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7929" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.guava\guava\ivy-27.0.1-jre.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="27.0.1-jre" rev-constraint-default="27.0.1-jre" rev-constraint-dynamic="27.0.1-jre" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1633014" time="328" location="C:\Users\Benjamin\.ivy2\cache\com.google.guava\guava\srcs\guava-27.0.1-jre-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.17" status="release" pubdate="20180622032035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5185" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\ivy-1.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.17" rev-constraint-default="1.17" rev-constraint-dynamic="1.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4003" time="233" location="C:\Users\Benjamin\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\srcs\animal-sniffer-annotations-1.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.1" status="release" pubdate="20170119000659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3207" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.j2objc\j2objc-annotations\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10481" time="1708" location="C:\Users\Benjamin\.ivy2\cache\com.google.j2objc\j2objc-annotations\srcs\j2objc-annotations-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.2.0" status="release" pubdate="20180109002952" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4144" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.errorprone\error_prone_annotations\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25517" time="376" location="C:\Users\Benjamin\.ivy2\cache\com.google.errorprone\error_prone_annotations\srcs\error_prone_annotations-2.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-qual">
+			<revision name="2.5.2" status="release" pubdate="20180601205723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2696" time="0" location="C:\Users\Benjamin\.ivy2\cache\org.checkerframework\checker-qual\ivy-2.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="checker-qual" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="223283" time="248" location="C:\Users\Benjamin\.ivy2\cache\org.checkerframework\checker-qual\srcs\checker-qual-2.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20170331065548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18102" time="381" location="C:\Users\Benjamin\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="listenablefuture">
+			<revision name="9999.0-empty-to-avoid-conflict-with-guava" status="release" pubdate="20180911214043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7012" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.guava\listenablefuture\ivy-9999.0-empty-to-avoid-conflict-with-guava.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="9999.0-empty-to-avoid-conflict-with-guava" rev-constraint-default="9999.0-empty-to-avoid-conflict-with-guava" rev-constraint-dynamic="9999.0-empty-to-avoid-conflict-with-guava" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="listenablefuture" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="failureaccess">
+			<revision name="1.0.1" status="release" pubdate="20181119185727" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6411" time="0" location="C:\Users\Benjamin\.ivy2\cache\com.google.guava\failureaccess\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom"/>
+				<caller organisation="de.tu-dresden.inf.st" name="ttcrsyncapproach$sources" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="failureaccess" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3493" time="246" location="C:\Users\Benjamin\.ivy2\cache\com.google.guava\failureaccess\srcs\failureaccess-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

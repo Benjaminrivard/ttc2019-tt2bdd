@@ -27,13 +27,10 @@ hs_err_pid*
 .history
 *.Rproj
 Rplots.pdf
-.idea
 .gradle
 !gradle/wrapper/gradle-wrapper.jar
 
 output/output.csv
 output/solutions
 
-solutions/RSync/target/
-solutions/RSync/project/target/
-solutions/RSync/project/project/target/
+/.metadata/

@@ -1,4 +1,4 @@
-﻿using NMF.Synchronizations;
+using NMF.Synchronizations;
 using NMF.Expressions;
 using NMF.Expressions.Linq;
 using System;

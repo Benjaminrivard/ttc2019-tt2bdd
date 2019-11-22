@@ -76,7 +76,7 @@ def benchmark(conf):
 
                 try:
                     output = subprocess.check_output(config.get('run', 'cmd'), shell=True, timeout=conf.Timeout)
-                    with open(result_file, "ab") as file:
+                    with open(result_file, 'a+b') as file:
                         file.write(output)
                 except CalledProcessError as e:
                     print("Program exited with error")

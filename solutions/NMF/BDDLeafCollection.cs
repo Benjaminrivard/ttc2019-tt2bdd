@@ -1,4 +1,4 @@
-﻿using NMF.Collections.ObjectModel;
+using NMF.Collections.ObjectModel;
 using NMF.Expressions.Linq;
 using NMF.Models;
 using System;

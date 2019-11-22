@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ATLEMFTVMImproved.main" target="1.8" />
+      <module name="ATLEMFTVMImproved.test" target="1.8" />
+      <module name="de.tudresden.inf.st.ttc2019-tt2bdd.solutions.RelationalRAGSolution.main" target="1.8" />
+      <module name="de.tudresden.inf.st.ttc2019-tt2bdd.solutions.RelationalRAGSolution.test" target="1.8" />
+      <module name="EMFSolutionATL.ttc2019-tt2bdd.solutions.EMFSolutionATL.main" target="1.8" />
+      <module name="EMFSolutionATL.ttc2019-tt2bdd.solutions.EMFSolutionATL.test" target="1.8" />
+      <module name="EMFSolutionYAMTL.main" target="1.8" />
+      <module name="EMFSolutionYAMTL.test" target="1.8" />
+      <module name="fulib.org.ttc19fulibsolution.main" target="1.8" />
+      <module name="fulib.org.ttc19fulibsolution.test" target="1.8" />
+      <module name="JavaSolutionTT2BDD.main" target="1.8" />
+      <module name="JavaSolutionTT2BDD.test" target="1.8" />
+      <module name="KotlinSolutionTT2BDD.main" target="1.8" />
+      <module name="KotlinSolutionTT2BDD.test" target="1.8" />
+      <module name="solutions.ATLEMFTVMImproved.main" target="1.8" />
+      <module name="solutions.ATLEMFTVMImproved.test" target="1.8" />
+      <module name="ttc19fulibsolution.main" target="1.8" />
+      <module name="ttc19fulibsolution.test" target="1.8" />
+      <module name="ttc2019-tt2bdd.solutions.EMFSolutionATL.main" target="1.8" />
+      <module name="ttc2019-tt2bdd.solutions.EMFSolutionATL.test" target="1.8" />
+      <module name="ttc2019-tt2bdd.solutions.JavaSolutionTT2BDD.main" target="1.8" />
+      <module name="ttc2019-tt2bdd.solutions.JavaSolutionTT2BDD.test" target="1.8" />
+      <module name="ttc2019-tt2bdd.solutions.RelationalRAGSolution.main" target="1.8" />
+      <module name="ttc2019-tt2bdd.solutions.RelationalRAGSolution.test" target="1.8" />
+      <module name="yamtl.EMFSolutionYAMTL.main" target="1.8" />
+      <module name="yamtl.EMFSolutionYAMTL.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

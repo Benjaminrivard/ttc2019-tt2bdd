@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.eclipse.emf:org.eclipse.emf.mapping.ecore2xml:2.5.0.v20100521-1847:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.emf/org.eclipse.emf.mapping.ecore2xml/jars/org.eclipse.emf.mapping.ecore2xml-2.5.0.v20100521-1847.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.eclipse.emf/org.eclipse.emf.mapping.ecore2xml/srcs/org.eclipse.emf.mapping.ecore2xml-2.5.0.v20100521-1847-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

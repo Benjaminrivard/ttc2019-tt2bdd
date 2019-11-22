@@ -1,4 +1,4 @@
-﻿using NMF.Models;
+using NMF.Models;
 using NMF.Models.Repository;
 using NMF.Synchronizations;
 using NMF.Transformations;

@@ -24,6 +24,7 @@ bwTheme <- theme(text=element_text(family="Helvetica", size=16),
   minValue <- min(data$Memory)
   maxValue <- max(data$Memory)
 
+
 plot <- ggplot(data, aes_string(x="Model",y="Memory"))
 
 plot <- plot + geom_line(aes_string(group="Tool",colour="Tool"),size=lineSize)

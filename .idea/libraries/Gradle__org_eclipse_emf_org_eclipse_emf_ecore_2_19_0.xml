@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.emf:org.eclipse.emf.ecore:2.19.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.19.0/d107a38aacf0b487e055df9389b22f7be628e80/org.eclipse.emf.ecore-2.19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.19.0/282c323b05a2546f07047240cf116c23970af1d5/org.eclipse.emf.ecore-2.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,76 @@
+buildscript {
+    ext.kotlin_version = '1.3.50'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+plugins {
+	id "org.xtext.xtend" version "2.0.4"
+}
+
+xtext.version = "2.17.0"
+
+repositories {
+	mavenCentral()
+
+	// for ATL
+	maven { url "https://repo.eclipse.org/content/groups/releases/" }
+}
+
+configurations {
+	emftvm_compile
+}
+
+dependencies {
+	compile 'org.eclipse.xtend:org.eclipse.xtend.lib:2.17.0'
+
+	// could be compileOnly for ATOL, but must be compile for ATL
+	compile('org.eclipse.m2m.atl:org.eclipse.m2m.atl.emftvm.compiler:4.0.0-1') {
+		exclude group: 'org.eclipse.m2m.atl', module: 'org.eclipse.m2m.atl.emfvm'	// ignore incorrect dependency in eclipse repository
+	}
+
+	emftvm_compile('org.eclipse.m2m.atl:org.eclipse.m2m.atl.emftvm.ant.standalone:4.0.0-1')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'kotlin'
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'java-library-distribution'
+
+mainClassName = 'ttc2019.Driver'
+
+sourceSets {
+	main {
+		java {
+			srcDirs = ['src', '../../metamodels/ttc2019.metamodels/src-gen']
+		}
+		resources {
+			srcDirs = ['src']
+		}
+	}
+}
+
+sourceSets {
+	main {
+		output.resourcesDir = "build/classes/main"
+	}
+	test {
+		output.resourcesDir = "build/classes/test"
+	}
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+

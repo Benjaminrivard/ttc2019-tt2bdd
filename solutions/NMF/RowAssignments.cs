@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using TTC2019.BinaryDecision.Metamodels.TruthTables.TT;
