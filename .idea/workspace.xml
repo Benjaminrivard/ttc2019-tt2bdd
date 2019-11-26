@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/ATLEMFTVMImproved/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/ATLEMFTVMImproved/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/EMFSolutionATL/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/EMFSolutionATL/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/EMFSolutionATLGraph/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/EMFSolutionATLGraph/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/EMFSolutionYAMTL/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/EMFSolutionYAMTL/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Fulib/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Fulib/solution.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/KotlinSolutionTT2BDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/KotlinSolutionTT2BDD/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionBDT/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionBDT/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDD/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDT/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDT/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD-H/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD-H/solution.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD/solution.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
