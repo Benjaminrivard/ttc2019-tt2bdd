@@ -12,12 +12,16 @@
 
 # Instructions pour l'installation
 1. Insérer la solution suivante dans le dossier solutions du framework ttc2019-tt2bdd
-2. Inscrire l'entrée "JavaSolutionTT2BDD" dans le tableau "Tools" du fichier config/config.json
-3. Éditer les Models à générer et éventuellement le nombre de cycle de test ainsi que le timeout
-4. Supprimer le fichier output/output.csv avant de lancer le framework
-5. lancer le framework de test à l'aide de la commande suivante depuis la racine du projet (/ttc2019-tt2bdd):
+2. Lancer la commande suivante à l'intérieur du dossier de la solution (ttc2019-tt2bdd/solutions/JavaSolutionTT2BDD)
+    > gradle wrapper
+3. (Optionel) Modifier les droits de l'ensemble des fichiers du dossier (execution) 
+    > chmod 775 JavaSolutionTT2BDD -R
+4. Inscrire l'entrée "JavaSolutionTT2BDD" dans le tableau "Tools" du fichier config/config.json
+5. Éditer les Models à générer et éventuellement le nombre de cycle de test ainsi que le timeout
+6. Supprimer le fichier output/output.csv avant de lancer le framework
+7. lancer le framework de test à l'aide de la commande suivante depuis la racine du projet (/ttc2019-tt2bdd):
     > ./scripts/run.py
-6. (Optionel) Utiliser le validator.jar pour valider les résultats : 
+8. (Optionel) Utiliser le validator.jar pour valider les résultats : 
     >
     > java -jar models/validator.jar ttModel bddModel
     > - java -jar models/validator.jar models/GeneratedI8O2Seed68.ttmodel solutions/JavaSolutionTT2BDD/I8O2Seed68.bddmodel
