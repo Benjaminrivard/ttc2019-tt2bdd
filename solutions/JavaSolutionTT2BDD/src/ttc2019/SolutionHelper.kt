@@ -31,10 +31,10 @@ object SolutionHelper {
     }
 
     /**
-    * @param BDD the binary decision diagram
-    * @param String the port's name (Identifier in the case of this transformation)
+     * @param BDD the binary decision diagram
+     * @param String the port's name (Identifier in the case of this transformation)
      *@return the corresponding output port
-    */
+     */
     fun getOutputPort(bdd: BDD, portName: String): OutputPort {
         bdd.ports.forEach {
             if (portName == it.name) {
@@ -52,12 +52,11 @@ object SolutionHelper {
      * Each Row should become a Leaf node: the Cells for the OutputPorts will
      * become Assignments.
      */
-    fun rowToLeaf(row: Row) : Leaf {
+    fun rowToLeaf(row: Row): Leaf {
         val leaf = BDDFactory.eINSTANCE.createLeaf()
-        val cells = row.cells.filter { cell -> cell.port !is OutputPort }.map { cell -> cell}
-        cells.forEach {
-            cell ->
-            when(cell.port) {
+        val cells = row.cells.filter { cell -> cell.port !is OutputPort }.map { cell -> cell }
+        cells.forEach { cell ->
+            when (cell.port) {
                 is ttc2019.metamodels.tt.OutputPort -> leaf.assignments.add(cellToAssignement(cell, leaf))
             }
         }
@@ -70,7 +69,7 @@ object SolutionHelper {
     /**
      * Transform a cell to an assignement
      */
-    fun cellToAssignement (cell: Cell, leaf: Leaf) : Assignment {
+    fun cellToAssignement(cell: Cell, leaf: Leaf): Assignment {
         val assignment = BDDFactory.eINSTANCE.createAssignment()
         val port = getOutputPort(instance!!, cell.port.name)
         assignment.isValue = cell.isValue
@@ -101,19 +100,19 @@ object SolutionHelper {
      *     <li>Second: list of rows where the value of the given port was true</li>
      * </ul>
      */
-    fun getPartition(rows : List<Row>, port: Port): Pair<List<Row>, List<Row>> {
+    fun getPartition(rows: List<Row>, port: Port): Pair<List<Row>, List<Row>> {
         var treeForOne: List<Row> = BasicEList()
         var treeForZero: List<Row> = BasicEList()
 
-        rows.forEach {row ->
-            if(!(trueCellsByPort(row)[port].isNullOrEmpty())) {
-                treeForOne=  treeForOne.plus(row)
+        rows.forEach { row ->
+            if (!(trueCellsByPort(row)[port].isNullOrEmpty())) {
+                treeForOne = treeForOne.plus(row)
             }
         }
 
-        rows.forEach {row ->
-            if(!(falseCellsByPort(row)[port].isNullOrEmpty())) {
-               treeForZero = treeForZero.plus(row)
+        rows.forEach { row ->
+            if (!(falseCellsByPort(row)[port].isNullOrEmpty())) {
+                treeForZero = treeForZero.plus(row)
             }
         }
         return Pair(treeForZero, treeForOne)
@@ -123,24 +122,24 @@ object SolutionHelper {
      * One simple	approach is to find a TT InputPort which is (ideally) defined in all the Rows, and
      * turn it into an inner node (a Subtree) which points to the equivalent BDD InputPort	and has two Trees
      */
-    fun getTree(rows : List<Row>, ports : List<Port>) : Tree {
+    fun getTree(rows: List<Row>, ports: List<Port>): Tree {
         /**
          *  Get the port that is the most defined
          */
         val port = getPort(ports, rows)
 
-        if(port != null ) {
+        if (port != null) {
             //Select a cell that defines the value
-            var _cell : Cell  = TTFactory.eINSTANCE.createCell()
-            for(row in rows) {
-               for (cell in row.cells) {
-                   if (cell.port == port)
-                   _cell = cell
-               }
+            var _cell: Cell = TTFactory.eINSTANCE.createCell()
+            for (row in rows) {
+                for (cell in row.cells) {
+                    if (cell.port == port)
+                        _cell = cell
+                }
             }
 
             //Partition the provided collection of rows
-            val part  = getPartition(rows, port)
+            val part = getPartition(rows, port)
 
             //Define a new collection of usable ports for the resulting partitionings
             val newPorts = ports.minus(port)
@@ -149,12 +148,12 @@ object SolutionHelper {
             val first: Tree
             val second: Tree
 
-            first = when(part.first.size) {
+            first = when (part.first.size) {
                 1 -> rowToLeaf(part.first[0])
                 else -> getTree(part.first, newPorts)
             }
 
-            second = when(part.second.size) {
+            second = when (part.second.size) {
                 1 -> rowToLeaf(part.second[0])
                 else -> getTree(part.second, newPorts)
             }
@@ -173,11 +172,11 @@ object SolutionHelper {
      *
      * @return the port fit the criteria
      */
-    fun getPort(ports : List<Port>, rows : List<Row>) : Port? {
+    fun getPort(ports: List<Port>, rows: List<Row>): Port? {
         return ports.find { port ->
-           return@find rows.filter { row ->
-                row.cells.filter {
-                    cell -> cell.port == port
+            return@find rows.filter { row ->
+                row.cells.filter { cell ->
+                    cell.port == port
                 }.isNotEmpty()
             }.size == rows.size
         }
@@ -188,11 +187,11 @@ object SolutionHelper {
      * @return The map with for key : each port and for value the cells with values of true in the row
      */
     fun trueCellsByPort(row: Row): Map<Port, List<Cell>> {
-        var partition : Map<Port, List<Cell>> = LinkedHashMap()
-        val ports : Set<Port> = row.cells.map{ cell -> cell.port}.toSet()
+        var partition: Map<Port, List<Cell>> = LinkedHashMap()
+        val ports: Set<Port> = row.cells.map { cell -> cell.port }.toSet()
 
         ports.forEach { port ->
-            val cells = row.cells.filter { cell -> cell.isValue && cell.port == port}
+            val cells = row.cells.filter { cell -> cell.isValue && cell.port == port }
             val pair = Pair(port, cells)
             partition = partition.plus(pair)
         }
@@ -205,11 +204,11 @@ object SolutionHelper {
      * @return The map with for key : each port and for value the cells with values of false in the row
      */
     fun falseCellsByPort(row: Row): Map<Port, List<Cell>> {
-        var partition : Map<Port, List<Cell>> = LinkedHashMap()
-        val ports : Set<Port> = row.cells.map{ cell -> cell.port}.toSet()
+        var partition: Map<Port, List<Cell>> = LinkedHashMap()
+        val ports: Set<Port> = row.cells.map { cell -> cell.port }.toSet()
 
         ports.forEach { port ->
-            val cells = row.cells.filter { cell -> !cell.isValue && cell.port == port}
+            val cells = row.cells.filter { cell -> !cell.isValue && cell.port == port }
             val pair = Pair(port, cells)
             partition = partition.plus(pair)
         }
