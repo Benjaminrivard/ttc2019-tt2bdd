@@ -18,6 +18,9 @@ All variants described in the [paper](http://www.transformation-tool-contest.eu/
 
 If there are problems, please submit an issue or write to christopher.werner@tu-dresden.de
 
+### JavaSolutionTT2BDD 
+The solution can be found at [solutions/JavaSolutionTT2BDD](https://github.com/Benjaminrivard/ttc2019-tt2bdd)
+
 ## Prerequisites
 
 * 64-bit operating system

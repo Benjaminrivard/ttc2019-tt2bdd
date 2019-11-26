@@ -6,9 +6,12 @@
 [![Generic badge](https://img.shields.io/badge/Efficiency-GOOD-orange.svg)](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD)
 
 # Pré-requis :
+## Récupérer le framework depuis la solution ttc2019-tt2bdd et installer les dépendances du projet
 * 64-bit operating system
 * Python 3.3 or higher
-* R ( dépendances à installer avec le script reporting/install.R)
+* R (dépendances à installer avec le script reporting/install.R)
+
+## Pour installer le projet sous eclipse, il faut importer l'archive du projet 
 
 # Instructions pour l'installation
 1. Insérer la solution suivante dans le dossier solutions du framework ttc2019-tt2bdd
