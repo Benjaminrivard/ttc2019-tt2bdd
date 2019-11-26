@@ -7,48 +7,12 @@
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrams/memory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/memory.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.png" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/default/rsync-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/default/rsync-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/default/rsync-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/default/rsync-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-rsync-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/de.tu-dresden.inf.st/ttcrsyncapproach_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/de.tu-dresden.inf.st/ttcrsyncapproach_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/de.tu-dresden.inf.st/ttcrsyncapproach_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/de.tu-dresden.inf.st/ttcrsyncapproach_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/scala-2.12/resolution-cache/reports/de.tu-dresden.inf.st-ttcrsyncapproach_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/RSync/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RSync/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -387,7 +351,9 @@
       <workItem from="1574167523158" duration="7211000" />
       <workItem from="1574175280871" duration="3027000" />
       <workItem from="1574420045478" duration="582000" />
-      <workItem from="1574426100319" duration="1412000" />
+      <workItem from="1574426100319" duration="6074000" />
+      <workItem from="1574771952814" duration="333000" />
+      <workItem from="1574773476572" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="adapt ./gradlew command to windows --&gt; gradlew.bat">
       <created>1571119574283</created>
@@ -472,16 +438,5 @@
     <MESSAGE value="YAMTL  : OK&#10;Removed RSYNC because doesn't run" />
     <MESSAGE value="transfo des row en leaf et cell en ass" />
     <option name="LAST_COMMIT_MESSAGE" value="transfo des row en leaf et cell en ass" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -70,7 +70,8 @@ def benchmark(conf):
 
             for model in available_models[tool]:
                 full_model_path = os.path.abspath(os.path.join(BASE_DIRECTORY, "models", model))
-                os.environ['Model'] = model
+                inputOutput, extension = model.split('.')
+                os.environ['Model'] = inputOutput[9:]
                 os.environ['ModelPath'] = full_model_path
                 print("Running benchmark: tool = " + tool + ", model = " + full_model_path)
 
