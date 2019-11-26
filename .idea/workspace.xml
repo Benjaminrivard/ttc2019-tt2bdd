@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077c2748-66b2-42ff-9b3c-46a1e8aa80a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagrams/memory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/memory.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.csv" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.png" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/results-GroupBy-Tool-Time.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/JavaSolution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/src/ttc2019/SolutionHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/ATLEMFTVMImproved/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/ATLEMFTVMImproved/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/EMFSolutionATL/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/EMFSolutionATL/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/EMFSolutionATLGraph/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/EMFSolutionATLGraph/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/EMFSolutionYAMTL/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/EMFSolutionYAMTL/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Fulib/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Fulib/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/KotlinSolutionTT2BDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/KotlinSolutionTT2BDD/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionBDT/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionBDT/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDD/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDT/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionOBDT/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD-H/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD-H/solution.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD/solution.ini" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/RelationalRAGSolutionROBDD/solution.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +357,7 @@
       <workItem from="1574420045478" duration="582000" />
       <workItem from="1574426100319" duration="6074000" />
       <workItem from="1574771952814" duration="333000" />
-      <workItem from="1574773476572" duration="5135000" />
+      <workItem from="1574773476572" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="adapt ./gradlew command to windows --&gt; gradlew.bat">
       <created>1571119574283</created>
