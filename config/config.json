@@ -1,6 +1,9 @@
 {
   "Tools": [
-    "JavaSolutionTT2BDD"
+    "Fulib",
+    "JavaSolutionTT2BDD",
+    "ATLEMFTVMImproved",
+    "EMFSolutionYAMTL"
   ],
   "Models": [
     "GeneratedI4O2Seed42.ttmodel",

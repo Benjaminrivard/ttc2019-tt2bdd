@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/EMFSolutionATL.ttc2019-tt2bdd.solutions.EMFSolutionATL.main.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/EMFSolutionATL.ttc2019-tt2bdd.solutions.EMFSolutionATL.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/EMFSolutionATL.ttc2019-tt2bdd.solutions.EMFSolutionATL.test.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/EMFSolutionATL/EMFSolutionATL.ttc2019-tt2bdd.solutions.EMFSolutionATL.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EMFSolutionATLGraph.iml" filepath="$PROJECT_DIR$/.idea/modules/EMFSolutionATLGraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" filepath="$PROJECT_DIR$/solutions/JavaSolutionTT2BDD/JavaSolutionTT2BDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaSolutionTT2BDD.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach.iml" filepath="$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach.iml" />
       <module fileurl="file://$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach-build.iml" filepath="$PROJECT_DIR$/solutions/RSync/.idea/modules/TTCRSyncApproach-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/de.tudresden.inf.st.ttc2019-tt2bdd.solutions.RelationalRAGSolution.main.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/de.tudresden.inf.st.ttc2019-tt2bdd.solutions.RelationalRAGSolution.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/de.tudresden.inf.st.ttc2019-tt2bdd.solutions.RelationalRAGSolution.test.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions/RelationalRAGSolution/de.tudresden.inf.st.ttc2019-tt2bdd.solutions.RelationalRAGSolution.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fulib.org.ttc19fulibsolution.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.iml" filepath="$PROJECT_DIR$/.idea/modules/solutions.ATLEMFTVMImproved.iml" />
