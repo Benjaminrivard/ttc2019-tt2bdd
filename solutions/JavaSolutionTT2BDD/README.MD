@@ -3,7 +3,7 @@
 [![Generic badge](https://img.shields.io/badge/Correctness-OK-green.svg)](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD)
 [![Generic badge](https://img.shields.io/badge/Conciseness-OK-green.svg)](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD)
 [![Generic badge](https://img.shields.io/badge/Readability-OK-green.svg)](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD)
-[![Generic badge](https://img.shields.io/badge/Efficiency-MEDIUM-orange.svg)](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD)
+[![Generic badge](https://img.shields.io/badge/Efficiency-GOOD-orange.svg)](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD)
 
 # Pré-requis :
 * 64-bit operating system
