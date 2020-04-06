@@ -4,6 +4,11 @@
 
 **Please note** that unfortunately - like the provided ATL solution - the solutions cannot be started directly using MS Windows, since they use `cd ../dir && ./gradlew`. If only Windows is available, these commands have to be adapted.
 
+### JVM based solution
+The solution can be found at [solutions/JavaSolutionTT2BDD](https://github.com/Benjaminrivard/ttc2019-tt2bdd/tree/master/solutions/JavaSolutionTT2BDD).
+
+Developed by Benjamin Rivard and Ibrahim Boughalem.
+
 ### JastAdd Relational RAGs Solution
 
 The solution can be found at [solutions/RelationalRAGSolution](https://git-st.inf.tu-dresden.de/ttc/bdd/tree/master/solutions/RelationalRAGSolution).
